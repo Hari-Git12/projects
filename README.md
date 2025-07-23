@@ -1,4 +1,4 @@
-Student Details Manager — DOM Mini Project
+Student Details — DOM Mini Project
 
  **GitHub Repository:** [https://github.com/Hari-Git12/projects](https://github.com/Hari-Git12/projects)
 
