@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(171, 125, 105, 0.299);
+
+}
+
+header {
+  background-color: rgba(190, 119, 188, 0.763);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: rgb(142, 169, 183);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1 1 200px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0d22ac;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0bd3e5;
+}
+
+.table-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #9e5c87;
+  border-radius: 4px;
+  background-color: #dad6d5;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 20px;
+  
+}
+input, td {
+  border-radius: 20px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  border-radius: 20px;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.actions button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.actions button:nth-child(1) {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.actions button:nth-child(2) {
+  background-color: #dc3545;
+  color: white;
+}
